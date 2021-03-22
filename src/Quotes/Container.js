@@ -16,7 +16,6 @@ function Container() {
     //handle our state to display new quote with the index
     const handleIndex=()=>{
         index < quotes.length-1 ? setIndex(index+1):setIndex(0);
-        console.log(quotes.length,myColor,colors.length)
         
     }
     useEffect(() => {
